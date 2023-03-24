@@ -1,0 +1,9 @@
+@import url(//db.onlinewebfonts.com/c/3cfe6d7e2919d98e0c6994d3dfbeda2c?family=TuristaGordaNFW01-Regular);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #ecd8bd;
+}
