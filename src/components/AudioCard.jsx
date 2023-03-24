@@ -10,7 +10,7 @@ export default function AudioList() {
   return (
     <nav
       className="xl:absolute w-[90%] p-6 bg-brand-gray rounded-xl
-    xl:left-6 xl:w-52 xl:p-4
+    xl:left-4 xl:w-56 xl:p-4
     "
     >
       <ul className="flex flex-col gap-4 xl:gap-8">
