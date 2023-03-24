@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
 
 export default function TimerCard() {
-  const remainingTime = (1679626800000 - Date.now()) / 1000
+  // const remainingTime = (1679626800000 - Date.now()) / 1000
 
-  const [timer, setTimer] = useState(remainingTime)
+  const [timer, setTimer] = useState(9)
 
   const formatDate = (tempo) => {
     const hours = tempo / 3600
@@ -31,7 +31,7 @@ export default function TimerCard() {
       </h1>
       {timer <= 0 ? (
         <a
-          href="https://open.spotify.com/artist/00FQb4jTyendYWaN8pK0wa/discography/album"
+          href="https://open.spotify.com/album/5HOHne1wzItQlIYmLXLYfZ"
           target="_blank"
         >
           <h2
