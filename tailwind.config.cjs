@@ -11,7 +11,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        primary: 'TuristaGordaNFW01-Regular, sans',
+        primary: "Righteous, Ubuntu",
       },
       keyframes: {
         shake: {
