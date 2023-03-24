@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 export default function TimerCard() {
   // const remainingTime = (1679626800000 - Date.now()) / 1000
 
-  const [timer, setTimer] = useState(9)
+  const [timer, setTimer] = useState(10)
 
   const formatDate = (tempo) => {
     const hours = tempo / 3600
